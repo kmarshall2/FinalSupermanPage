@@ -132,6 +132,14 @@ body {
 	justify-content: center;
 }
 
+.title1 {
+	display: flex;
+	color: white;
+	font-size: 20px;
+	align-items: center;
+	justify-content: center;
+} 
+
 .secret {
 	display: none;
 }
@@ -238,7 +246,7 @@ body {
 	.title {
 		display: flex;
 		color: white;
-		font-size: 12px;
+		font-size: 11px;
 		align-items: center;
 		text-align: center;
 	}
@@ -284,9 +292,10 @@ body {
 	}
 }
 
-@media only screen and (max-width: 374px) {
-	.title {
-		font-size: 8px;
+@media only screen and (max-width: 375px) {
+	.title1 {
+		font-size: 20px;
+		
 	}
 }
 
