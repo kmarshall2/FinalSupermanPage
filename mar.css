@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	display: flex;
 	flex-wrap: wrap; /* flex-wrap makes it so that we can change the order/direction of which wayes the divs are stacked */
+	background-color: #082e61;
 }
 
 .wide-col {
